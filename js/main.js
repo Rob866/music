@@ -231,7 +231,7 @@ $(document).ready(function(){
 
          else if(flag==3) {
             $(".bigImage img").attr("src","img/2.jpg");
-            var newHTML="img/descripciones/2.html"
+            var newHTML="/img/descripciones/2.html"
             $('.descripcion').load(newHTML);  
             flag=2;
          }
