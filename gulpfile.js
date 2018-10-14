@@ -40,7 +40,7 @@ gulp.task("comprimir",function(cb){
 gulp.task('deploy', function () {
     return gulp.src("./app/**/*")
       .pipe(deploy({ 
-        remoteUrl: "",
+        remoteUrl: "https://github.com/Rob866/music.git",
         branch: "master"
       }))
   });
